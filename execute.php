@@ -66,7 +66,7 @@
 			$barz[3]= "Le donne sono come la lavastoviglie, tutti ce l'hanno, ma fuori dalla cucina fa strano. ";
 			$i = rand(0,3;)
 			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
-	       }
+	      }
 		
 		//aggiungo il comando di invio
 		//e lo invio
