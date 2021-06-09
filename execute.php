@@ -53,21 +53,7 @@
 	       $parameters = array('chat_id' => $chatId, "text" => $text);
 	       }
 		
-	       if ($text== "foto"|| $text== "/foto"){
-			$foto[0]="foto.png";
-			$foto[1]="foto.png";
-			$foto[2]="foto.png";
-			$i = rand(0,2);
-			sendFoto($chatId, $foto[$i],false, "La mia Foto", $api);
-		}
-               if ($text== 'barz'|| $text== '/barz'){
-	       $barz[0]= "Un cavallo va dal benzinaio e chiede: il fieno per favore! ";
-	       $barz[1]= "Qual è il colmo per un tuffatore? Fare un buco nell'acqua. " ;
-	       $barz[2]= "Chi la fa la vende, chi la compra non la USA, chi la usa non la vede, che cosa è???? La tomba. ";
-	       $barz[3]= "Le donne sono come la lavastoviglie, tutti ce l'hanno, ma fuori dalla cucina fa strano. ";
-	       $i = rand(0,3;)
-	       $parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
-	       }
+	      
 		
 		//aggiungo il comando di invio
 		//e lo invio
