@@ -52,7 +52,13 @@
 	       $text = "Benvenuto nel bot dell'8 Marzo";
 	       $parameters = array('chat_id' => $chatId, "text" => $text);
 	       }
-		
+	       if ($text== "foto"|| $text== "/foto"){
+			$foto[0]="foto.png";
+			$foto[1]="foto.png";
+			$foto[2]="foto.png";
+			$i = rand(0,2);
+			sendFoto($chatId, $foto[$i],false, "La mia Foto", $api);
+	       }
 	      
 		
 		//aggiungo il comando di invio
