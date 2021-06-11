@@ -52,13 +52,13 @@
 	       $text = "Benvenuto nel bot dell'8 Marzo";
 	       $parameters = array('chat_id' => $chatId, "text" => $text);
 	       }
-	      /* if ($text== "foto"|| $text== "/foto"){
+	      if ($text== "foto"|| $text== "/foto"){
 			$foto[0]="foto.png";
 			$foto[1]="foto.png";
 			$foto[2]="foto.png";
 			$i = rand(0,2);
 			sendFoto($chatId, $foto[$i],false, "La mia Foto", $api);
-	       }*/
+	       }
 	     /* if ($text== 'barz'|| $text== '/barz'){
       			$barz[0]= "Un cavallo va dal benzinaio e chiede: il fieno per favore! ";
 			$barz[1]= "Qual è il colmo per un tuffatore? Fare un buco nell'acqua. " ;
