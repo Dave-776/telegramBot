@@ -64,7 +64,7 @@
 			$barz[1]= "Qual è il colmo per un tuffatore? Fare un buco nell'acqua. " ;
 			$barz[2]= "Chi la fa la vende, chi la compra non la USA, chi la usa non la vede, che cosa è???? La tomba. ";
 			$barz[3]= "Le donne sono come la lavastoviglie, tutti ce l'hanno, ma fuori dalla cucina fa strano. ";
-			$i = rand(0,3;);
+			$i = rand(0,3);
 			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
 	      }
 	
