@@ -54,8 +54,8 @@
 	       }
 	      if ($text== "foto"|| $text== "/foto"){
 			$foto[0]="foto.png";
-			$foto[1]="foto.png";
-			$foto[2]="foto.png";
+			$foto[1]="foto1.png";
+			$foto[2]="foto2.png";
 			$i = rand(0,2);
 			sendFoto($chatId, $foto[$i],false, "La mia Foto", $api);
 	       }
